@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "tag replace util",
+  "version": "0.1",
+  "description": "replace tag to all reviewer",
+  "icons": {
+    "12": "img/bad.jpg",
+    "24": "img/bad.jpg",
+    "32": "img/bad.jpg",
+    "48": "img/bad.jpg",
+    "64": "img/bad.jpg",
+    "72": "img/bad.jpg",
+    "88": "img/bad.jpg",
+    "96": "img/bad.jpg",
+    "104": "img/bad.jpg",
+    "128": "img/bad.jpg"
+  },
+  "page_action": {
+    "default_icon": "img/bad.jpg",
+    "default_title": "tag replace util"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs",
+    "declarativeContent",
+    "contextMenus"
+  ]
+}
