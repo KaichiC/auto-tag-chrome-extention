@@ -1,0 +1,6 @@
+# file
+/.idea
+*/.idea
+
+# file type
+*.iml
